@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 90%;
+  border: 0.2px solid #808080;
+  overflow: auto;
+  display: flex;
+}
+.user {
+  height: 90vh;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  background-color: #ededed;
+  padding: 0.5rem 0.75rem;
+  gap: 10px;
+}
+
+#profile_pic {
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+}
+
+.You_name {
+  font-size: 1.45rem;
+  color: #999;
+}
+
+.search-box {
+  background-color: #f6f6f6;
+  padding: 0.5rem 0.75rem;
+}
+
+.search-box-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+  padding: 0 1.5rem;
+  background-color: white;
+  border-radius: 100px;
+}
+
+.search-box-container span {
+  color: #666;
+  text-align: center;
+}
+
+.search-box-container input {
+  font-family: inherit;
+  border: none;
+  width: 100%;
+  margin-left: 1rem;
+  outline: none;
+}
+
+.user_list {
+  list-style: none;
+}
+
+.user_list_detail {
+  padding: 0.5rem 0.75rem;
+  background-color: white;
+  border-top: 1px solid #eee;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+}
+
+.user_list_detail img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+}
+
+.user_list_detail_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 4px;
+  margin-left: 12px;
+}
+
+.user_list_detail_contact > div:last-child {
+  font-size: 0.95rem;
+  color: #666;
+}
