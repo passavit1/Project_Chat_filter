@@ -11,7 +11,7 @@ const getUser = async () => {
 };
 
 const main = async () => {
-  let runner = await getUser();
+  const runner = await getUser();
   if (runner?.results) {
     genList(runner.results);
     let rawData = runner.results;
